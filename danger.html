@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Dangers of Minimalism</title>
+   <style>
+      h1, h2, h3{
+              font-family: Inter;
+              text-decoration: bold;
+              text-underline-offset: 15px;
+              text-decoration-thickness: 1px;
+              line-height: 1.5;
+          }
+          h1{
+              font-size: 60px;
+              font-family: Arsenica Trial;
+          }
+          h2{
+              font-size: 50px;
+              font-family: Inter;
+          }
+          h3{font-size: 30px;}
+          a{
+              text-decoration: underline;
+              color: grey;
+          }
+      div.banner{
+          display: flex;
+          width: 100%;
+          height: 400px;
+      }
+      div, a.active{
+            text-decoration: underline;
+          }
+          div, a:hover{
+          text-decoration: underline;
+          text-underline-offset: 5px;
+          }
+          div, a 
+          {
+          text-decoration: none; 
+          }
+          div.article{
+              max-width: 50%;
+              display:flex;
+              justify-content: center;
+              flex-direction: column;
+              margin-left: 25%;
+              margin-right: 25%;
+              font-family: Inter;
+              font-weight: 300;
+              font-size: 1.15rem;
+              color: #2e2e2e;
+              
+          }
+          div a.button{
+              color: black; 
+            }
+          div a.button:hover{
+              background-color: #f9f5f2;
+              color: black;
+          }
+  </style>
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="margin: 0;">
+    <!--Start of Nav-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png">
+                </a>
+            </div>
+  
+            <input type="checkbox" name="checkbox" id="check" >
+                <label for="check" class="toggle-button">
+                    <i class="fa fa-bars"></i>
+                </label>
+  
+            <div class="nav-links">
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="explore.html" class="active">
+                        <li>EXPLORE</li>
+                    </a>
+                    <a href="about.html">
+                        <li>ABOUT CREATORS</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--End of nav-->
+
+    <div class="banner">
+      <img src="detail_banner.jpg" style="width: 100%; height: auto;">
+  
+  
+      </div>
+  
+      <div class="article">
+  
+      <h1 style="border-bottom: 1px solid; margin-bottom: 20px;">The Dangers of Minimalism</h1>
+  
+      <div class="description" style="padding-bottom: 30px;">
+          <p style="font-family: Inter; font-size: 1.5rem; margin: 0">Written by  <a href="https://twitter.com/culturaltutor/status/1538211892707086338" target="_blank"> The Cultural Tutor</a> </p>
+      </div>
+
+      <p>This isn't an attack on capital M Minimalism, which is a conscious design movement. <br>
+         Like the Minimalist music of the composer Philip Glass, which is frankly beautiful.
+     </p>
+     <p>
+     	What I'm talking about is unconscious, small m minimalism.<br> Which has become the social default for seemingly every design choice, whether architectural or corporate or anything else.<br>It is a troubling phenomenon because of what minimalism represents: a lack of detail.
+     </p>
+     
+     <p>
+     	Why does detail matter? Think of it as identity.<br>
+        What gives the phone box on the left its distinctive character?<br>
+        The details: colour, mouldings around the door, the ornamentation at the top.<br>
+        The phone box on the right has no real detail, and no character.
+     </p>
+     <div class="phonebox" style="display: flex; flex-direction: row; width: 90%; margin-left: 5%; margin-right: 5%; height: auto; justify-content: center; gap: 100px;">
+         <div class="phone1">
+            <img src="d_phone_1.jpg" style="max-width: 100%; max-height: 400px;">
+         </div>
+         <div class="phone2">
+            <img src="d_phone_2.jpg" style="max-width: 100%; max-height: 400px;">
+         </div>
+     </div>
+     <p>Even benches have been minimalized!</p>
+     <div class="bench" style="display: flex; width: 50%; margin-right: 25%; margin-left: 25%">
+      <img src="bench.jpg" style="max-width: 100%; max-height: 500px;">
+     </div>
+     <p>
+      I'm not necessarily talking about beauty here.<br>
+      I'm just talking about things having some discernible qualities & characteristics. <br>
+      The bollard on the left is hardly "beautiful" but it <i>Does</i> have some character. <br>
+      The one on the right... it exists. That's all
+     </p>
+     <div class="bollard" style="display: flex; flex-direction: row; width: 90%; margin-left: 5%; margin-right: 5%; height: auto; justify-content: center; gap: 100px;">
+      <div class="bollard1">
+         <img src="post_1.jpg" style="max-width: 100%; max-height: 400px;">
+      </div>
+      <div class="bollard2">
+         <img src="post_2.jpg" style="max-width: 100%; max-height: 400px;">
+      </div>
+   </div>
+     <p>
+     	And doorbells too!<br>
+     	You would remember the one on the left. It adds charm & character to its location.<br>
+        The one on the right... you wouldn't even notice it.
+     </p>
+     <div class="bell" style="display: flex; flex-direction: row; width: 90%; margin-left: 5%; margin-right: 5%; height: auto; justify-content: center; gap: 100px;">
+      <div class="bell1">
+         <img src="bell_1.jpg" style="max-width: 100%; max-height: 400px;">
+      </div>
+      <div class="bell2">
+         <img src="bell_2.jpg" style="max-width: 100%; max-height: 400px;">
+      </div>
+   </div>
+     <p>
+     	How many large corporations have rebranded towards far more simplified logos?<br>
+        This is a notorious recent example.
+     </p>
+     <div class="logo_simp" style="display: flex; width: 100%">
+      <img src="simp_logo.jpg" style="max-width: 100%; max-height: 500px;">
+     </div>
+     <p>
+     	The thing with detail (and, therefore, identity) is that people have different tastes.<br>
+        So, to some extent, it imposes something on a person.<br>
+        Default minimalist designs strips all identity away from things.<br>
+        It presents a neutral, clean-slate which imposes nothing.
+     </p>
+     <p>
+     	So when small m minimalism has become the social default for everything from benches & bollards to skyscrapers & national assemblies....<br>
+        We have a reduction ad absurdum of cultural aesthetics:<br>
+        Somebody might not like a detail (read: character) so there can be no details.
+     </p>
+     <p>
+     	Please remember that I am not talking about a conscious minimalism here.<br>
+        If you like to decorate your room in a minimalist fashion, that *isn't* a problem. It's none of mine or anybody else's business.<br>
+        The problem is this social drift towards absolute simplification...
+     </p>
+     <p>
+     	The worst crime of minimalist design is how it has stripped all colour away from things.
+     </p>
+     <p>
+     	Perhaps minimalist design is so prevalent because we no longer have anything to say.<br>
+        You don't need me to explain what the Gothic cathedral says, for example.<br>
+        But the skyscraper? It doesn't say anything, really. It's just... *there*.
+     </p>
+     <p style="padding-bottom: 20px; margin-bottom: 100px; border-bottom: 1px solid;">
+     	And suddenly everything, everywhere starts to look the same.<br>
+
+        Absolute neutrality. No detail. No identity.<br>
+
+        What does that say about us?
+     </p>
+
+     </div>
+
+     <div class="readmore" style="max-width: 90%; margin-left: 5%; margin-right: 5%; margin-bottom: 200px;">
+      <div class="titel" style="display: flex; justify-content: flex-start; ">
+         <h2 style="font-family: Noto Serif Display; padding-bottom: 10px; border-bottom: 1px solid; font-weight: 300; ">
+           Read More Articles
+          </h2>
+      </div>
+      <div class="articles" style="display: flex; justify-content: space-between; width: 70%; margin-left: 10%; margin-right: 10%; gap: 10%">
+          <div class="article1">
+              <a href="habits.html">
+                  <img src="habits.jpg" style="max-width: 450px;" >
+                  <h4 style="font-family: Noto Serif Display; color: black; font-weight: 300; font-size: 1.5rem; max-width: 450px; margin-top: 25px; margin-bottom: 10px;">A minimalist's Guide to Habits</h4>
+              </a>
+              <p style="font-family: Inter; font-size: 15px; max-width: 450px; margin-bottom: 15px; ">Habits are the root of our existence. Our behaviors form our identity. Discover how you can become a person of excellent habits. </p>
+              <a class="button" href="habits.html" style="border-radius: 80px;
+              border: solid 1px;
+              padding: 25px 42px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+              font-family: Inter;
+              font-weight: 300;
+              max-width: 50px;
+              max-height:50px;" >
+                  
+                  Read 
+              </a>
+          </div>
+          <div class="article2">
+              <a href="why_minimalism.html">
+                  <img src="why.jpg" style="max-width: 450px;" >
+                  <h4 style="font-family: Noto Serif Display; color: black; font-weight: 300; font-size: 1.5rem; max-width: 450px; margin-top: 25px; margin-bottom: 10px;">Why should you care about Minimalism?</h4>
+              </a>
+              <p style="font-family: Inter; font-size: 15px; max-width: 450px; margin-bottom: 30px; "> Why care about Minimalism? How does it impact your life? </p>
+              <a class="button" href="why_minimalism.html" style="border-radius: 80px;
+              border: solid 1px;
+              padding: 25px 42px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+              font-family: Inter;
+              font-weight: 300;
+              max-width: 50px;
+              max-height:50px;" >
+                  
+                  Read 
+              </a>
+          </div>
+      </div>
+  </div>
+
+     <!--start footer-->
+   <div
+   class="footer"
+   style="
+     background-color: #F9F5F2;
+     font-family: Inter;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 150px;
+     border-top: 1px solid #000;
+   "
+ >
+   <div
+     style="
+       width: 10%;
+       height: 40px;
+       padding-left: 100px;
+       border-right: 1px solid #000;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 20px;
+       font-weight: 300
+     "
+   >
+     Contact Us
+   </div>
+
+   <div
+     class="section-2"
+     style="
+       display: flex;
+       width: 90%;
+       padding-left: 2rem;
+       justify-content: space-between;
+       align-items: center;
+     "
+   >
+     <div>
+         <a href="https://discord.gg/XFKgDvhCeu" target="_blank">
+             <img src="discord.png" style="width: 40px; height: 40px"  class="link-hover">
+         </a>
+         <a href="https://twitter.com/alan_2008_" target="_blank">
+             <img src="twitter.png" style="width: 40px; height: 40px; padding-left:1.5rem"  class="link-hover">
+         </a>
+     </div>
+     <div style="font-size: 15px; padding-right: 120px; font-family: Inter">
+       &copy; SIMPLR CONCEPT 2022
+     </div>
+   </div>
+ </div>
+ <!--end footer-->
+    
+</body>
+</html>
